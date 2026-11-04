@@ -171,8 +171,8 @@ class PlayerListener implements Listener
     }
 
 
-    public function onChat(PlayerChatEvent $event): void {
-/*        $player = $event->getPlayer();
+/*    public function onChat(PlayerChatEvent $event): void {
+        $player = $event->getPlayer();
         $rankSession = RankSystem::getInstance()->getSessionManager()->get($player);
 
         $nickname = $this->ess->getUserManager()->getUser($player)->getNickname();
@@ -181,6 +181,6 @@ class PlayerListener implements Listener
             $event->setFormatter(new LegacyRawChatFormatter($formatted));
         } else {
             $event->setFormatter(new LegacyRawChatFormatter($nickname . ": " . $event->getMessage()));
-        }*/
-    }
+        }
+    }*/
 }
